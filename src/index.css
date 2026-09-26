@@ -1,6 +1,4 @@
 @import 'tailwindcss';
-@import 'tw-animate-css';
-@import 'shadcn/tailwind.css';
 @import '@fontsource-variable/geist';
 
 /* CSS Reset */
@@ -309,13 +307,6 @@ h6 {
   }
   html {
     @apply font-montserrat;
-  }
-}
-
-@layer components {
-  .custom-container {
-    margin: 0 auto;
-    @apply max-w-302 pl-6 pr-6;
   }
 }
 
