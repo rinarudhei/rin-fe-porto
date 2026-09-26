@@ -328,6 +328,24 @@ h6 {
   @apply left-1/2 -translate-x-1/2;
 }
 
+@utility text-frontend {
+  font-size: clamp(102px, calc(102px + 85 * ((100vw - 640px) / 384)), 187px);
+  line-height: clamp(
+    106.42px,
+    calc(106.42px + 86.58 * ((100vw - 640px) / 384)),
+    193px
+  );
+}
+
+@utility text-developer {
+  font-size: clamp(92px, calc(92px + 77 * ((100vw - 640px) / 384)), 169px);
+  line-height: clamp(
+    112.52px,
+    calc(112.52px + 92.48 * ((100vw - 640px) / 384)),
+    205px
+  );
+}
+
 img {
   user-drag: none;
   -webkit-user-drag: none; /* For Safari */
