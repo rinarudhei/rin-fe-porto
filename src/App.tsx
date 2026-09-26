@@ -1,7 +1,7 @@
-import "./App.css";
+import './App.css';
 
 function App() {
-  return <section id="spacer"></section>;
+  return <div></div>;
 }
 
 export default App;

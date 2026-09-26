@@ -116,9 +116,19 @@ h6 {
   src: url('./assets/fonts/montserrat-v31-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+/* anton-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/anton-v27-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 @theme {
   /* Font Family */
-  --font-sans: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
+  --font-montserrat: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
+  --font-anton: 'Anton', ui-sans-serif, system-ui, sans-serif;
 
   /* Text Sizes and Line Heights — Display */
   --text-display-3xl: 3.75rem;
@@ -230,9 +240,6 @@ h6 {
 }
 
 @layer base {
-  .theme {
-    --font-montserrat: 'Montserrat', sans-serif;
-  }
   :root {
     --background: oklch(1 0 0);
     --foreground: oklch(0.145 0 0);
