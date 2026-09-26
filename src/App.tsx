@@ -1,5 +1,5 @@
 import './App.css';
-import HeroSection from './components/containers/HeroSection';
+import HeroSection from './components/containers/hero/HeroSection';
 import './index.css';
 
 function App() {
