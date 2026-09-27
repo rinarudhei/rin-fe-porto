@@ -328,6 +328,10 @@ h6 {
   @apply left-1/2 -translate-x-1/2;
 }
 
+@utility translate-x-zero {
+  @apply left-0 -translate-x-0;
+}
+
 @utility text-frontend {
   font-size: clamp(102px, calc(102px + 85 * ((100vw - 640px) / 384)), 187px);
   line-height: clamp(

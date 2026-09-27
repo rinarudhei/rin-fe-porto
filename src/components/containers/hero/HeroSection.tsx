@@ -1,15 +1,21 @@
+import Navigator from '../Navigator';
 import HeroBackgroundMask from './HeroBackgroundMask';
 import HeroDevMask from './HeroDevMask';
 import HeroImage from './HeroImage';
+import HeroProfile from './HeroProfile';
 import HeroTitle from './HeroTitle';
 
 function HeroSection() {
   return (
     <div className='relative min-h-256 bg-[#A53F65]'>
-      <HeroTitle />
       <HeroBackgroundMask />
+      <HeroTitle />
       <HeroDevMask />
       <HeroImage />
+      <div className='translate-x-center absolute top-5 z-50 flex max-w-300 flex-col border-2 border-black'>
+        <Navigator />
+        <HeroProfile />
+      </div>
     </div>
   );
 }
