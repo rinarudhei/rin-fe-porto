@@ -3,6 +3,7 @@ import HeroBackgroundMask from './HeroBackgroundMask';
 import HeroDevMask from './HeroDevMask';
 import HeroImage from './HeroImage';
 import HeroProfile from './HeroProfile';
+import HeroStats from './HeroStats';
 import HeroTitle from './HeroTitle';
 
 function HeroSection() {
@@ -15,6 +16,7 @@ function HeroSection() {
       <div className='translate-x-center absolute top-5 z-50 flex max-w-300 flex-col justify-center'>
         <Navigator />
         <HeroProfile />
+        <HeroStats />
       </div>
     </div>
   );
