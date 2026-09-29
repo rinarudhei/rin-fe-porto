@@ -13,6 +13,7 @@ function HeroSection() {
       <HeroTitle />
       <HeroDevMask />
       <HeroImage />
+
       <div className='translate-x-center absolute top-5 z-50 flex max-w-300 flex-col justify-center'>
         <Navigator />
         <HeroProfile />
