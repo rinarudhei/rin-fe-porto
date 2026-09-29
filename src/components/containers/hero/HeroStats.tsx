@@ -1,3 +1,5 @@
+import { ArrowRight } from 'lucide-react';
+
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 
@@ -27,7 +29,7 @@ function HeroStats() {
     },
   };
   return (
-    <div className='absolute top-68.75 flex w-full flex-col lg:top-54.25 lg:right-0 lg:w-34 xl:w-55.5'>
+    <div className='absolute top-68.75 flex w-full flex-col gap-5 lg:top-54.25 lg:right-0 lg:w-34 xl:w-55.5'>
       <div className='sm:gap-x-lg flex flex-wrap gap-x-[60.17px] gap-y-5 sm:justify-between'>
         {/* Metric year */}
         {/* 2 Vertical separators shown in small screen */}
@@ -75,7 +77,17 @@ function HeroStats() {
           valueIcon={CoffeBean}
         />
       </div>
-      <Button />
+      <Button variant='secondary' size='default' className='min-w-40'>
+        <div className='flex-center lg:flex-start w-full text-center text-sm font-semibold lg:text-base'>
+          Contact Me
+        </div>
+        <div
+          data-icon='inline-end'
+          className='size-9 rounded-[100px] bg-neutral-950 p-2'
+        >
+          <ArrowRight className='size-5 text-white' />
+        </div>
+      </Button>
     </div>
   );
 }
