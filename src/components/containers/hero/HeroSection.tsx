@@ -3,6 +3,7 @@ import HeroBackgroundMask from './HeroBackgroundMask';
 import HeroDevMask from './HeroDevMask';
 import HeroImage from './HeroImage';
 import HeroProfile from './HeroProfile';
+import HeroSkills from './HeroSkills';
 import HeroStats from './HeroStats';
 import HeroTitle from './HeroTitle';
 
@@ -18,6 +19,7 @@ function HeroSection() {
         <Navigator />
         <HeroProfile />
         <HeroStats />
+        <HeroSkills />
       </div>
     </div>
   );
