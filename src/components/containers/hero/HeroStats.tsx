@@ -78,7 +78,7 @@ function HeroStats() {
         />
       </div>
       <Button variant='secondary' size='default' className='min-w-40 gap-0'>
-        <div className='flex-center lg:flex-start text-center text-sm font-semibold sm:w-full lg:w-fit lg:text-base'>
+        <div className='flex-center lg:flex-start lg:text-md text-center text-sm font-semibold sm:w-full lg:w-fit'>
           Contact Me
         </div>
         <div

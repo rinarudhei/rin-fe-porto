@@ -15,7 +15,7 @@ function Metric({ value, label, valueIcon: ValueIcon }: MetricProp) {
         </div>
         {ValueIcon && <ValueIcon className='size-6 lg:size-7 xl:size-8' />}
       </div>
-      <div className='text-xs font-semibold text-white lg:text-sm xl:text-base'>
+      <div className='xl:text-md text-xs font-semibold text-white lg:text-sm'>
         {label}
       </div>
     </div>

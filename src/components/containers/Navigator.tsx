@@ -24,7 +24,7 @@ function Navigator() {
         {menus.map((m) => (
           <li
             key={m.id}
-            className='hidden p-2 text-base font-medium tracking-[-0.03em] text-white sm:block'
+            className='text-md hidden p-2 font-medium tracking-[-0.03em] text-white sm:block'
           >
             {m.label}
           </li>
