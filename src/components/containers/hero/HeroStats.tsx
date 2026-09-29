@@ -77,8 +77,8 @@ function HeroStats() {
           valueIcon={CoffeBean}
         />
       </div>
-      <Button variant='secondary' size='default' className='min-w-40'>
-        <div className='flex-center lg:flex-start w-full text-center text-sm font-semibold lg:text-base'>
+      <Button variant='secondary' size='default' className='min-w-40 gap-0'>
+        <div className='flex-center lg:flex-start text-center text-sm font-semibold sm:w-full lg:w-fit lg:text-base'>
           Contact Me
         </div>
         <div
