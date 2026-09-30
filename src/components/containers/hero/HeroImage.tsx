@@ -1,6 +1,6 @@
 import HeroStatus from './HeroStatus';
 
-import hero from '@/assets/images/rinaldi.png';
+import hero from '@/assets/images/rinaldi.avif';
 
 function HeroImage() {
   return (
@@ -9,6 +9,7 @@ function HeroImage() {
         src={hero}
         alt='hero-sized rinaldi-adrian photo'
         className='min-w-100'
+        fetchPriority='high'
       />
       <HeroStatus />
     </div>
