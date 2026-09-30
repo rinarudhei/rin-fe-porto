@@ -10,7 +10,7 @@ function HeroTitle() {
         DEVELOPER
       </div>
       <Shuriken className='absolute top-18 -left-11 -z-10 size-[clamp(5.6875rem,calc(19.53125vw-2.125rem),10.375rem)] rotate-18 sm:top-14 sm:-left-16 sm:rotate-9 md:-left-20 lg:top-28 lg:-left-22 lg:rotate-0' />
-      <Shuriken className='absolute top-72 -right-4 -z-10 size-[clamp(5.6875rem,calc(19.53125vw-2.125rem),10.375rem)] rotate-0 md:top-90' />
+      <Shuriken className='absolute top-68 -right-4 -z-10 size-[clamp(5.6875rem,calc(19.53125vw-2.125rem),10.375rem)] rotate-0' />
     </div>
   );
 }
