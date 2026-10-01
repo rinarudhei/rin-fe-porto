@@ -14,8 +14,9 @@ function DescriptionSection() {
         </span>
         with usability{' '}
         <span className='inline-flex align-middle'>
-          <TapSetting className='size-8' />.
-        </span>
+          <TapSetting className='size-8' />
+        </span>{' '}
+        .
       </p>
     </div>
   );

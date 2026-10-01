@@ -11,7 +11,7 @@ const buttonVariants = cva(
         outline:
           'border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50',
         secondary:
-          'bg-secondary-100 text-neutral-950 hover:bg-[color-mix(in_oklch,var(--secondary-100),var(--foreground)_5%)] aria-expanded:bg-secondary-100 aria-expanded:text-neutral-950',
+          'bg-secondary-100 text-neutral-950 hover:bg-primary-100/80 aria-expanded:bg-secondary-100/80 aria-expanded:text-neutral-950',
         ghost:
           'hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50',
         destructive:
@@ -27,8 +27,8 @@ const buttonVariants = cva(
         // icon: 'size-8',
         // 'icon-xs':
         //   "size-6 rounded-[min(var(--radius-md),10px)] in-data-[slot=button-group]:rounded-lg [&_svg:not([class*='size-'])]:size-3",
-        // 'icon-sm':
-        //   'size-7 rounded-[min(var(--radius-md),12px)] in-data-[slot=button-group]:rounded-lg',
+        'icon-sm':
+          'rounded-[min(var(--radius-md),12px)] in-data-[slot=button-group]:rounded-lg p-0 m-0',
         // 'icon-lg': 'size-9',
       },
     },
