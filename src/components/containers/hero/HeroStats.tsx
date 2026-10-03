@@ -42,7 +42,7 @@ function HeroStats() {
         />
         <Separator
           orientation='horizontal'
-          className='bg-primary-300 hidden w-px lg:block lg:h-px lg:w-full'
+          className='bg-primary-300 hidden h-px w-full lg:block'
         />
 
         {/* Metric satisfaction */}
@@ -56,7 +56,7 @@ function HeroStats() {
         />
         <Separator
           orientation='horizontal'
-          className='bg-primary-300 hidden w-px lg:block lg:h-px lg:w-full'
+          className='bg-primary-300 hidden h-px w-full lg:block'
         />
 
         {/* Metric projects */}
@@ -67,7 +67,7 @@ function HeroStats() {
         />
         <Separator
           orientation='horizontal'
-          className='bg-primary-300 hidden w-px lg:block lg:h-px lg:w-full'
+          className='bg-primary-300 hidden h-px w-full lg:block'
         />
 
         {/* Metric coffee */}
