@@ -9,7 +9,7 @@ import HeroTitle from './HeroTitle';
 
 function HeroSection() {
   return (
-    <div className='relative min-h-256 bg-[#A53F65]'>
+    <section className='relative min-h-256 bg-[#A53F65]'>
       <HeroBackgroundMask />
       <HeroTitle />
       <HeroDevMask />
@@ -21,7 +21,7 @@ function HeroSection() {
         <HeroStats />
         <HeroSkills />
       </div>
-    </div>
+    </section>
   );
 }
 

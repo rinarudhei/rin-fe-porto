@@ -17,7 +17,7 @@ import ShadcnUi from '@/assets/icons/shadcnui.svg?react';
 import Tailwind from '@/assets/icons/tailwindcss.svg?react';
 import Vite from '@/assets/icons/vite.svg?react';
 
-function Skills() {
+function SkillsSection() {
   const skills = [
     {
       id: 1,
@@ -70,7 +70,7 @@ function Skills() {
   ];
 
   return (
-    <div className='flex-center bg-linear-to-t from-[#9e385e]/20 to-[#9e385e]/0 xl:max-w-360'>
+    <section className='flex-center bg-linear-to-t from-[#9e385e]/20 to-[#9e385e]/0 xl:max-w-360'>
       <div className='flex-center flex-col gap-6 px-4 py-10'>
         {/* Skills Section Description */}
         <div className='flex-center flex-col gap-2'>
@@ -108,8 +108,8 @@ function Skills() {
           </div>
         </Carousel>
       </div>
-    </div>
+    </section>
   );
 }
 
-export default Skills;
+export default SkillsSection;

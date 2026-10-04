@@ -9,7 +9,7 @@ import ColorPaint from '@/assets/icons/color-paint.svg?react';
 import Gear from '@/assets/icons/gear.svg?react';
 import Mobile from '@/assets/icons/mobilephone.svg?react';
 
-function Traits() {
+function TraitsSection() {
   const traits = [
     {
       id: 1,
@@ -35,7 +35,7 @@ function Traits() {
   ];
 
   return (
-    <div className='flex-center w-full'>
+    <section className='flex-center w-full'>
       <div className='flex-center w-full max-w-360 flex-col gap-4 px-4 py-10 sm:gap-6 lg:flex-row lg:justify-between lg:gap-10 lg:px-10 lg:py-4 xl:px-30 xl:py-20'>
         {traits.map((t) => (
           <React.Fragment key={t.id}>
@@ -58,8 +58,8 @@ function Traits() {
           </React.Fragment>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 
-export default Traits;
+export default TraitsSection;

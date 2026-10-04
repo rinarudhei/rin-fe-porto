@@ -3,7 +3,7 @@ import TapSetting from '@/assets/icons/tap-settings.svg?react';
 
 function DescriptionSection() {
   return (
-    <div className='flex-center gap-2 px-3.75 py-10 sm:px-4 lg:px-30 lg:py-20'>
+    <section className='flex-center gap-2 px-3.75 py-10 sm:px-4 lg:px-30 lg:py-20'>
       <p className='text-display-sm lg:text-display-lg max-w-223 text-center font-medium tracking-[-0.03em] text-neutral-950 lg:tracking-[-0.02em]'>
         As frontend developers, we bring designs to life with{' '}
         <span className='text-primary-300'>clean</span>,{' '}
@@ -18,7 +18,7 @@ function DescriptionSection() {
         </span>{' '}
         .
       </p>
-    </div>
+    </section>
   );
 }
 

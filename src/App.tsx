@@ -1,8 +1,8 @@
 import './App.css';
 import DescriptionSection from './components/containers/description/DescriptionSection';
 import HeroSection from './components/containers/hero/HeroSection';
-import Skills from './components/containers/skills/Skills';
-import Traits from './components/containers/traits/Traits';
+import SkillsSection from './components/containers/skills/SkillsSection';
+import TraitsSection from './components/containers/traits/TraitsSection';
 
 import './index.css';
 
@@ -11,8 +11,8 @@ function App() {
     <div className='flex w-full flex-col'>
       <HeroSection />
       <DescriptionSection />
-      <Traits />
-      <Skills />
+      <TraitsSection />
+      <SkillsSection />
     </div>
   );
 }
