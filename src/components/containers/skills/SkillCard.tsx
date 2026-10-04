@@ -19,13 +19,13 @@ function SkillCard({ isOdd, icon: Icon, skill, description }: SkillCardProps) {
       )}
     >
       <div className='flex-center size-15 gap-2.5 rounded-full bg-neutral-100 p-2.5'>
-        <Icon className='size-8.75' />
+        <Icon className='size-8.75 lg:size-11' />
       </div>
       <div className='flex-center h-32.25 flex-col'>
         <div className='text-md text-center font-semibold text-neutral-950'>
           {skill}
         </div>
-        <div className='w-[140.5px] text-center text-sm font-normal text-neutral-800'>
+        <div className='w-[140.5px] text-center text-sm font-normal text-neutral-800 lg:w-45.75'>
           {description}
         </div>
       </div>
