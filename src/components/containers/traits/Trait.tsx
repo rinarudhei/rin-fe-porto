@@ -11,7 +11,7 @@ function Trait({ icon: Icon, title, description }: TraitProps) {
         <Icon className='size-6.5 sm:size-8 xl:size-10' />
       </div>
       <div className='xl:text-display-xs text-lg font-bold text-neutral-950 sm:text-xl'>
-        {title}
+        {title.toUpperCase()}
       </div>
       <div className='sm:text-md lg:text-md text-sm font-normal text-neutral-950 xl:tracking-[-0.03em]'>
         {description}
