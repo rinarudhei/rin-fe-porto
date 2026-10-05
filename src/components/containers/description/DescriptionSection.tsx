@@ -1,9 +1,15 @@
+import SectionWrapper from '../SectionWrapper';
+
 import Creativity from '@/assets/icons/creativity.svg?react';
 import TapSetting from '@/assets/icons/tap-settings.svg?react';
 
 function DescriptionSection() {
   return (
-    <section className='flex-center gap-2 px-3.75 py-10 sm:px-4 lg:px-30 lg:py-20'>
+    <SectionWrapper
+      idName='about'
+      sectionClass=' gap-2 px-3.75 py-10 sm:px-4 lg:px-30 lg:py-20'
+      divClass=''
+    >
       <p className='text-display-sm lg:text-display-lg max-w-223 text-center font-medium tracking-[-0.03em] text-neutral-950 lg:tracking-[-0.02em]'>
         As frontend developers, we bring designs to life with{' '}
         <span className='text-primary-300'>clean</span>,{' '}
@@ -18,7 +24,7 @@ function DescriptionSection() {
         </span>{' '}
         .
       </p>
-    </section>
+    </SectionWrapper>
   );
 }
 
