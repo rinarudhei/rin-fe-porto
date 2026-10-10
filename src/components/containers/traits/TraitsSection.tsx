@@ -39,7 +39,7 @@ function TraitsSection() {
     <SectionWrapper
       idName='traits'
       sectionClass='w-full'
-      divClass='flex-col gap-4 px-4 py-10 sm:gap-6 lg:flex-row lg:justify-between lg:gap-10 lg:px-10 lg:py-4 xl:px-30 xl:py-20'
+      divClass='gap-4 px-4 py-10 sm:gap-6 lg:flex-row lg:justify-between lg:gap-10 lg:px-10 lg:py-4 xl:px-30 xl:py-20'
     >
       {traits.map((t) => (
         <React.Fragment key={t.id}>

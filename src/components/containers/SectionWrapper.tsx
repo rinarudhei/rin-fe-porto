@@ -15,7 +15,9 @@ function SectionWrapper({
 }: SectionWrapperProps) {
   return (
     <section id={`#${idName}`} className={clsx('flex-center', sectionClass)}>
-      <div className={clsx('flex-center max-w-360', divClass)}>{children}</div>
+      <div className={clsx('flex-center max-w-360 flex-col', divClass)}>
+        {children}
+      </div>
     </section>
   );
 }

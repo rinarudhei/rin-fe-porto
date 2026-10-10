@@ -6,13 +6,21 @@ type SkillCardProps = {
   icon: React.FC<React.SVGProps<SVGSVGElement>>;
   skill: string;
   description: string;
+  divClass?: string;
 };
 
-function SkillCard({ isOdd, icon: Icon, skill, description }: SkillCardProps) {
+function SkillCard({
+  isOdd,
+  icon: Icon,
+  skill,
+  description,
+  divClass = '',
+}: SkillCardProps) {
   return (
     <div
       className={clsx(
         'flex-center w-fit flex-col gap-3 rounded-[100px] px-4 py-10',
+        divClass,
         isOdd
           ? 'bg-secondary-100 border-0'
           : 'bg-neutral-25 outline outline-neutral-300'
