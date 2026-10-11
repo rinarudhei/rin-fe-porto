@@ -6,6 +6,7 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel';
 
+import SectionDescription from '../SectionDescription';
 import SectionWrapper from '../SectionWrapper';
 import SkillCard from './SkillCard';
 
@@ -70,22 +71,23 @@ function SkillsSection() {
     },
   ];
 
+  const sectionDesc = {
+    title: 'Code, Design, and Everything in Between',
+    subtitle:
+      'These are the technologies that power my workflow and bring ideas to life.',
+  };
+
   return (
     <SectionWrapper
       idName='skills'
       sectionClass='bg-linear-to-t from-[#9e385e]/20 to-[#9e385e]/0'
-      divClass='gap-6 px-4 py-10 sm:gap-8 sm:px-16 sm:py-12 lg:gap-10 lg:px-16 lg:py-16 xl:gap-12 xl:px-30 xl:py-20'
+      divClass='gap-6 px-4 py-10 sm:gap-8 sm:px-8 sm:py-12 lg:gap-10 lg:px-16 lg:py-16 xl:gap-12 xl:px-30 xl:py-20'
     >
       {/* Skills Section Description */}
-      <div className='flex-center flex-col gap-2'>
-        <div className='text-display-sm lg:text-display-xl text-center font-bold tracking-[-0.02em] text-neutral-950 lg:tracking-[-0.03em]'>
-          Code, Design, and Everything in Between
-        </div>
-        <div className='lg:text-md text-center text-sm font-medium text-neutral-950 lg:tracking-[-0.03em]'>
-          These are the technologies that power my workflow and bring ideas to
-          life.
-        </div>
-      </div>
+      <SectionDescription
+        title={sectionDesc.title}
+        subtitle={sectionDesc.subtitle}
+      />
 
       {/* Skills Carousel */}
       <Carousel
@@ -94,7 +96,7 @@ function SkillsSection() {
         }}
         className='w-full max-w-90.5 sm:max-w-140 lg:max-w-230'
       >
-        <CarouselContent className='gap-4 py-px pr-100'>
+        <CarouselContent className='gap-4 py-px'>
           {skills.map(({ id, skill, description, icon }) => (
             <CarouselItem
               key={id}

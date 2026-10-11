@@ -2,15 +2,15 @@ import { clsx } from 'cn';
 
 type SectionWrapperProps = {
   idName: string;
-  sectionClass: string;
-  divClass: string;
+  sectionClass?: string;
+  divClass?: string;
   children: React.ReactNode;
 };
 
 function SectionWrapper({
   idName,
-  sectionClass,
-  divClass,
+  sectionClass = '',
+  divClass = '',
   children,
 }: SectionWrapperProps) {
   return (

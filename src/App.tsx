@@ -1,4 +1,4 @@
-import './App.css';
+import ComparisonSection from './components/containers/comparison/ComparisonSection';
 import DescriptionSection from './components/containers/description/DescriptionSection';
 import HeroSection from './components/containers/hero/HeroSection';
 import SkillsSection from './components/containers/skills/SkillsSection';
@@ -13,6 +13,7 @@ function App() {
       <DescriptionSection />
       <TraitsSection />
       <SkillsSection />
+      <ComparisonSection />
     </div>
   );
 }
