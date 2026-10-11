@@ -40,11 +40,7 @@ function ComparisonSection() {
   };
 
   return (
-    <SectionWrapper
-      idName='comparison'
-      sectionClass='py-10 px-4 lg:py-20 lg:px-30'
-      divClass='gap-6 lg:gap-12 w-full'
-    >
+    <SectionWrapper idName='comparison'>
       <SectionDescription
         title={sectionDescription.title}
         subtitle={sectionDescription.subtitle}

@@ -81,7 +81,6 @@ function SkillsSection() {
     <SectionWrapper
       idName='skills'
       sectionClass='bg-linear-to-t from-[#9e385e]/20 to-[#9e385e]/0'
-      divClass='gap-6 px-4 py-10 sm:gap-8 sm:px-8 sm:py-12 lg:gap-10 lg:px-16 lg:py-16 xl:gap-12 xl:px-30 xl:py-20'
     >
       {/* Skills Section Description */}
       <SectionDescription

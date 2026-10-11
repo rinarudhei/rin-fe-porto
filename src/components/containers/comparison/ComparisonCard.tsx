@@ -14,7 +14,7 @@ function ComparisonCard({ isPrimary, title, whats }: ComparisonCardProps) {
   return (
     <div
       className={clsx(
-        'flex-center w-full max-w-90.25 flex-col gap-6 rounded-2xl px-4 py-8 lg:max-w-147 lg:basis-1/2 lg:gap-8 lg:p-8',
+        'flex-center w-full max-w-90.25 flex-col gap-6 rounded-2xl px-4 py-8 sm:max-w-147 lg:basis-1/2 lg:gap-8 lg:p-8',
         isPrimary ? 'bg-secondary-100' : 'border border-neutral-300 bg-white'
       )}
     >
