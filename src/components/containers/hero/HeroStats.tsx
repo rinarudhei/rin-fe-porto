@@ -20,7 +20,7 @@ function HeroStats() {
 
     project: {
       label: 'Project Delivered',
-      value: '5',
+      value: '10+',
     },
 
     coffee: {
